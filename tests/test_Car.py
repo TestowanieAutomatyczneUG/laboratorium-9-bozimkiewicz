@@ -1,9 +1,9 @@
 from src.Car import Car
 from unittest.mock import *
-from unittest import TestCase
+import unittest
 
 
-class TestCar(TestCase):
+class TestCar(unittest.TestCase):
     def setUp(self):
         self.temp = Car()
 
